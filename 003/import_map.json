@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "std-datetime": "https://deno.land/std@0.112.0/datetime/mod.ts",
+    "lodash/": "https://raw.githubusercontent.com/lodash/lodash/4.17.21-es/"
+  }
+}
