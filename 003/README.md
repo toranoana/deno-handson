@@ -15,5 +15,9 @@ deno run sample3.ts
 ```
 
 ```shell
-deno run --import-map=./import_map.json sample4.ts
+deno run sample4.ts
+```
+
+```shell
+deno run --import-map=./import_map.json sample5.ts
 ```
