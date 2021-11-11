@@ -1,5 +1,5 @@
 import { listenAndServe } from "https://deno.land/std@0.112.0/http/server.ts";
-import Handlebars from "https://esm.sh/handlebars@4.7.7";
+import Handlebars from "https://cdn.skypack.dev/handlebars@4.7.7";
 
 const template = Handlebars.compile(`<body>
 こんにちは! <b>{{name}}</b>さん
