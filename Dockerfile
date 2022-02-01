@@ -1,4 +1,4 @@
-FROM denoland/deno:1.15.1
+FROM denoland/deno:1.18.0
 
 ARG WORKDIR=/usr/src/app
 
