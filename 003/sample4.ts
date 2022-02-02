@@ -1,4 +1,4 @@
-import { format, cloneDeep } from "./deps.ts";
+import { cloneDeep, format } from "./deps.ts";
 
 const today = new Date();
 
