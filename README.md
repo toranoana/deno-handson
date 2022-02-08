@@ -9,11 +9,13 @@
 
 Denoのセットアップが完了していない方は下記のいずれかの方法でセットアップしてください。
 
-### Denoのセットアップ方法
+### Denoのセットアップ
 
-公式サイトの各OSごとのインストール手順に従ってセットアップしてください。 https://deno.land/#installation
+公式サイトの各OSごとのインストール手順に従ってセットアップしてください。
 
-### Docker Composeを使用する場合
+https://deno.land/#installation
+
+### Docker Composeを使用する
 
 Denoのセットアップが終わっておらず、Docker Composeをお使いになれる方は下記のコマンドで環境構築できます。
 
