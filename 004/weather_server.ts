@@ -36,10 +36,9 @@ async function getWeather(area: string): Promise<string> {
   );
   const weather = await weatherRes.json();
 
-  const q =
-    weather.filter((s: { name: string }) => s.name === area)[0]?.srf
-      .timeSeries[0]
-      .areas;
+  const q = weather.filter((s: { name: string }) => s.name === area)[0]?.srf
+    .timeSeries[0]
+    .areas;
 
   if (!q) {
     return `${area}の天気は見つかりませんでした。`;
